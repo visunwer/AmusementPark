@@ -61,6 +61,7 @@
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ПродажиПоАттракционам</reports>
   <reports>Report.СтатистикаПосещений</reports>
+  <reports>Report.ПопулярныеАттракционы</reports>
   <dataProcessors>DataProcessor.ПереходНаНовыеВерсии</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоКассира</dataProcessors>
   <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>
@@ -68,4 +69,5 @@
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПосещенияАттракционов</accumulationRegisters>
 </mdclass:Configuration>

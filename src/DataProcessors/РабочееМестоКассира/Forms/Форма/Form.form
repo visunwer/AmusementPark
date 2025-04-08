@@ -514,18 +514,22 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>СписокНоменклатурыНоменклатура</name>
+          <name>СписокНоменклатурыСсылка</name>
           <id>79</id>
+          <title>
+            <key>ru</key>
+            <value>Номенклатура</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СписокНоменклатуры.Номенклатура</segments>
+            <segments>СписокНоменклатуры.Ссылка</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокНоменклатурыНоменклатураРасширеннаяПодсказка</name>
+            <name>СписокНоменклатурыСсылкаРасширеннаяПодсказка</name>
             <id>81</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -535,7 +539,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>СписокНоменклатурыНоменклатураКонтекстноеМеню</name>
+            <name>СписокНоменклатурыСсылкаКонтекстноеМеню</name>
             <id>80</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1221,9 +1225,12 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокНоменклатуры.ЭтоГруппа</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокНоменклатуры.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	СправочникНоменклатура.Ссылка КАК Номенклатура,
+	СправочникНоменклатура.Ссылка КАК Ссылка,
 	СправочникНоменклатура.КоличествоПосещений,
 	ЦеныНоменклатурыСрезПоследних.Цена,
 	СправочникНоменклатура.ЭтоГруппа
