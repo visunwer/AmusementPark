@@ -70,6 +70,7 @@
   <dataProcessors>DataProcessor.ПереходНаНовыеВерсии</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоКассира</dataProcessors>
   <dataProcessors>DataProcessor.ПланированиеОтпусков</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаНаСайт</dataProcessors>
   <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ПлановоеОтсутствие</informationRegisters>
