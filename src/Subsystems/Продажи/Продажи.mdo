@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02f6b8c9-0ebf-4249-b91e-e56cdb06fb25">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.МаксимальнаяДоляОплатыБаллами</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Клиенты</content>
+  <content>Document.ПродажаБилета</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
+  <content>Document.ШкалаБонуснойПрограммы</content>
+  <content>Enum.ВидНоменклатуры</content>
+  <content>Report.ПродажиПоАттракционам</content>
+  <content>DataProcessor.ВыгрузкаНаСайт</content>
+  <content>DataProcessor.РабочееМестоКассира</content>
+  <content>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>AccumulationRegister.БонусныеБаллыКлиентов</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>AccumulationRegister.АктивныеПосещения</content>
+  <content>Role.Кассир</content>
+</mdclass:Subsystem>

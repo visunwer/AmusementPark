@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96932b58-8e38-475f-90a5-c9fee3c30554">
+  <name>Посещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыАттракционов</content>
+  <content>Document.ПосещениеАттракционов</content>
+  <content>Report.ПопулярныеАттракционы</content>
+  <content>Report.СтатистикаПосещений</content>
+  <content>AccumulationRegister.ПосещенияАттракционов</content>
+  <content>AccumulationRegister.АктивныеПосещения</content>
+  <content>Role.ОператорАттракциона</content>
+  <content>Report.ДетализацияПосещений</content>
+</mdclass:Subsystem>

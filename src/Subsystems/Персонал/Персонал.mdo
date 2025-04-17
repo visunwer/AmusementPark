@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fae7bcc-5fb9-44ed-a630-d286125e1f09">
+  <name>Персонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персонал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Пользователи</content>
+  <content>Document.ПланированиеОтсутствия</content>
+  <content>DataProcessor.ПланированиеОтпусков</content>
+  <content>InformationRegister.ПлановоеОтсутствие</content>
+</mdclass:Subsystem>
